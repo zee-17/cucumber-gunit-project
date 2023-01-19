@@ -17,7 +17,7 @@ public class Driver {
 
     public static WebDriver getDriver(){
         String browserType="";
-        if (driverPool.get() == null){
+        if (driverPool.get() == null){ // it will giv driver from pool driver
 
             if ((System.getProperty("Browser")==null)){
                 browserType = ConfigurationReader.getProperty("browser");
