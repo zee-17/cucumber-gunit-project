@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
                 "me.jvt.cucumber.report.PrettyReports:target/cucumber",
 
                 "json:target/cucumber.json",
-                "junit:target/junit/junit-report.xml",
+                "junit:target/junit/junit-report.xml", // jenkins report
 
         },
 
