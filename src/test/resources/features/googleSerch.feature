@@ -8,7 +8,7 @@ Feature: Google Search functionality
     When User type apple in the google search and clicks enter
     Then User sees apple - Google Search is in the google title
 
-  @wip
+  @wip @tesla
   Scenario: Search functionally result title verification
     Given User is on Google search page
     When User type "tesla" in the google search and clicks enter

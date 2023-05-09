@@ -24,8 +24,8 @@
                     <parallel>methods</parallel>
                     <threadCount>4</threadCount>
                     <perCoreThreadCount>false</perCoreThreadCount>
-                    <testFailureIgnore>true</testFailureIgnore>
-                    <includes>
+                    <testFailureIgnore>true</testFailureIgnore> // is not good if connected to pipe line,it will
+                    <includes>                                   // continue to next test
                         <include>**/CukesRunner*.java</include>
                     </includes>
                 </configuration>
